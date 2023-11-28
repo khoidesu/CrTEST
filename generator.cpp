@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include <windows.h>
 using namespace std;
-const string NAME = "contest";
+const string NAME = "Task";
 
 int correct_cnt = 0;
 int wrong_cnt = 0;
