@@ -27,13 +27,16 @@ sinhtest/
 
 
 copy ```generator.cpp``` và tạo ra *5 file*:
-```
-Task.cpp
-Task_trau.cpp
-Task.inp
-Task.out
-Task.ans
-```
+
+```Task.cpp```
+
+```Task_trau.cpp```
+
+```Task.inp```
+
+```Task.out```
+
+```Task.ans```
 
 * Lần lượt dán code optimize và code trâu vào các file đã tạo, chạy để lưu ra file ```.exe```
 * Chạy file ```generator.cpp``` để bắt đầu chấm
