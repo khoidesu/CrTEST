@@ -119,6 +119,7 @@ signed main()
   ``` 
   đều phải viết dạng ```inp <<``` không được ghi dạng ```cout <<``` vì cout sẽ chạy trong terminal
   * Có thể thay đổi số lượng test trong ```const int NTEST = ```*soluongtest*```;```
+
 Hình ảnh tham khảo:
 
 ![test](https://github.com/khoidesu/CreateTestForCP/blob/main/screenshot_test.png?raw=true)
