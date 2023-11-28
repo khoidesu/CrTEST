@@ -113,7 +113,7 @@ signed main()
 
 Hình ảnh tham khảo:
 
-[Screenshot-2023-11-28-170951.png](https://postimg.cc/jWVmb61w)
+[[Screenshot-2023-11-28-170951.png](https://postimg.cc/jWVmb61w)](https://github.com/khoidesu/CreateTestForCP/blob/9ac6b4bbecbe3369805f6d51b8403e9b58cd7194/screenshot_test.png)
 
 <!-- CONTRIBUTING -->
 ## Tài liệu tham khảo 
