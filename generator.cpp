@@ -94,7 +94,7 @@ ___alisamikhailovna___()
     for (int iTest = 1; iTest <= NTEST; iTest++)
     {
         ofstream inp((NAME + ".inp").c_str());
-        /*---------------------input/*---------------------*/
+        /*---------------------input-----------------------*/
         
         /*----------------------end.----------------------*/
         inp.close();
