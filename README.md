@@ -113,7 +113,9 @@ signed main()
   * tạo một cây có n đỉnh và m cạnh bất kì
   * tạo một đồ thị bất kì
 * B4: chạy ```generator.cpp``` và uống một cốc trà xem AC☕
-**Chú ý: **
+
+**Chú ý:**
+
   * Các dạng in ra trong phần
   ```
   /*---------------------input-----------------------*/
