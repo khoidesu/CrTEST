@@ -110,7 +110,15 @@ signed main()
   * tạo một cây có n đỉnh và m cạnh bất kì
   * tạo một đồ thị bất kì
 * B4: chạy ```generator.cpp``` và uống một cốc trà xem AC☕
-
+**Chú ý: **
+  * Các dạng in ra trong phần
+  ```
+  /*---------------------input-----------------------*/
+  
+  /*----------------------end.----------------------*/
+  ``` 
+  đều phải viết dạng ```inp <<``` không được ghi dạng ```cout <<``` vì cout sẽ chạy trong terminal
+  * Có thể thay đổi số lượng test trong ```const int NTEST = ```*soluongtest*```;```
 Hình ảnh tham khảo:
 
 ![test](https://github.com/khoidesu/CreateTestForCP/blob/main/screenshot_test.png?raw=true)
