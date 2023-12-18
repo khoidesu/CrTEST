@@ -134,7 +134,7 @@ signed main()
 
 Hình ảnh tham khảo:
 
-![test](https://github.com/khoidesu/CreateTestForCP/blob/main/screenshot_test.png?raw=true)
+![test](https://github.com/khoidesu/CreateTestForCP/blob/42d88ec5fec3c08039c7a53402f4bcf953fd4027/github/test_type_1.gif)
 
 ### Dạng 2: Sinh test và đưa vào folder chấm themis
 Việc sinh test và tạo folder nhét vô rất tốn thời gian, việc có một chương trình làm việc đó và tự động tạo test giải quyết được rất nhiều thời gian
@@ -152,6 +152,11 @@ Số lượng test tùy thuộc vào ```const int NTEST = 200``` như ở trên 
 Folder mang tên mạng đặt sẽ nằm trong folder ```sinhtest/```
 
 ***Lưu ý:*** việc tạo test được dựa trên **code trâu** nên hãy đảm bảo code trâu bạn đúng :D
+
+Hình ảnh tham khảo:
+
+![test](https://github.com/khoidesu/CreateTestForCP/blob/42d88ec5fec3c08039c7a53402f4bcf953fd4027/github/test_type_2.png)
+
 
 <!-- CONTRIBUTING -->
 ## Tài liệu tham khảo 
