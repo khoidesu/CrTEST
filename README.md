@@ -4,12 +4,19 @@
 <!-- ABOUT THE PROJECT -->
 # Trình sinh test, so code trâu và code optimize
 
-Một số tính năng 
+Một số tính năng mới:
+
+* Tạo folder nhăm chấm các trình chấm offine như **themis**
+* Random xâu 
+* Có thể sử dụng cin, cout trong hàm ```sinh test```
+* Format lại terminal output trực quan hơn.
+
+Một số tính năng cũ:
 
 * Tạo input & output
 * Chấm code trâu và code tối ưu
 * So sánh thời gian chạy 2 code
-* Đếm số lượng test sai, test đúng
+* Đếm số lượng test sai, test đúng.
 
 ### Built With
 
@@ -43,6 +50,7 @@ copy ```generator.cpp``` và tạo ra *5 file*:
 
 <!-- Chương trình mẫu -->
 ## Chương trình mẫu
+### Dạng 1: So sánh code trâu và code cải tiến
 Example: Cho đề bài đơn giản là tìm LIS của mảng a
 
 Code trâu:
@@ -104,6 +112,7 @@ signed main()
 }
 ```
 
+* B0: ở dòng **14** ```const int type =``` nhập 1 (mặc định là 1)
 * B1: paste code trâu vào file ```Task_trau.cpp``` và đổi đuôi ```.out``` thành ```.ans```, nhấn *chạy* để tạo file ```_trau.exe```
 * B2: paste code optimize (cần so sánh) vào file ```Task.cpp``` và nhấn *chạy* để tạo file ```.exe```
 * B3: Tạo test mẫu (đã có các dạng input đơn giản:
@@ -112,22 +121,37 @@ signed main()
   * tạo ngẫu nhiên 1 hoán vị [1..n]
   * tạo một cây có n đỉnh và m cạnh bất kì
   * tạo một đồ thị bất kì
+  * tạo một chữ cái bất kì
 * B4: chạy ```generator.cpp``` và uống một cốc trà xem AC☕
 
 **Chú ý:**
 
   * Các dạng in ra trong phần
-  ```
-  /*---------------------input-----------------------*/
-  
-  /*----------------------end.----------------------*/
+  ```cpp
+  void SINHTEST(ofstream &cout) { //Trinh sinh test
+  }
   ``` 
-  đều phải viết dạng ```inp <<``` không được ghi dạng ```cout <<``` vì cout sẽ chạy trong terminal
-  * Có thể thay đổi số lượng test trong ```const int NTEST = ```*soluongtest*```;```
 
 Hình ảnh tham khảo:
 
 ![test](https://github.com/khoidesu/CreateTestForCP/blob/main/screenshot_test.png?raw=true)
+
+### Dạng 2: Sinh test và đưa vào folder chấm themis
+Việc sinh test và tạo folder nhét vô rất tốn thời gian, việc có một chương trình làm việc đó và tự động tạo test giải quyết được rất nhiều thời gian
+
+Với ví dụ trên, ta thực hiện:
+
+* B0: ở dòng **14** ```const int type =``` nhập 2
+* B1:  B1: paste code trâu vào file ```Task_trau.cpp``` và đổi đuôi ```.out``` thành ```.ans```, nhấn *chạy* để tạo file ```_trau.exe```
+* B2: đổi ```const string NAME = ``` thành tên bài của bạn (mặc định là "TASK")
+* B3: tạo test như bình thường và thực hiện như trên
+* B4: chạy ```generator.cpp```
+
+Số lượng test tùy thuộc vào ```const int NTEST = 200``` như ở trên là 200 test
+
+Folder mang tên mạng đặt sẽ nằm trong folder ```sinhtest/```
+
+***Lưu ý:*** việc tạo test được dựa trên **code trâu** nên hãy đảm bảo code trâu bạn đúng :D
 
 <!-- CONTRIBUTING -->
 ## Tài liệu tham khảo 
