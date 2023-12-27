@@ -151,7 +151,7 @@ signed main()
 
 Hình ảnh tham khảo:
 
-![test](https://github.com/khoidesu/CreateTestForCP/blob/42d88ec5fec3c08039c7a53402f4bcf953fd4027/github/test_type_1.gif)
+![test](https://github.com/khoidesu/CrTEST/blob/4574e79637536b79bfb01cb605da2c2504287c74/github/test_type_1.gif)
 
 ### Dạng 2: Sinh test và đưa vào folder chấm themis
 Việc sinh test và tạo folder nhét vô rất tốn thời gian, việc có một chương trình làm việc đó và tự động tạo test giải quyết được rất nhiều thời gian
