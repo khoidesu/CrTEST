@@ -63,23 +63,40 @@ const int maxn = 1e5;
 int a[maxn];
 int getbit(int x, int k)
 {
-    return ((x >> k) & 1);
+    return ((x >> k) & 1);
+}
+bool check(vector<int> ve)
+{
+    for (int i = 1; i < ve.size(); i++)
+    {
+        if (ve[i] < ve[i - 1])
+            return false;
+    }
+    return true;
 }
 signed main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    freopen(name ".inp", "r", stdin);
-    freopen(name ".out", "w", stdout);
-    int n;
-    cin >> n;
-    for (int i = 0; i < (1 << n); i++)
-    {
-        for (int j = 0; j < n; j++)
-            cout << getbit(i, j);
-        cout << endl;
-    }
-    return 0;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    freopen(name ".inp", "r", stdin);
+    freopen(name ".out", "w", stdout);
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+        cin >> a[i];
+    int res = 0;
+    vector<int> tmp;
+    for (int i = 1; i < (1 << n); i++)
+    {
+        tmp.clear();
+        for (int j = 0; j < n; j++)
+            if (getbit(i, j))
+                tmp.push_back(a[j + 1]);
+        if (check(tmp))
+            res = max(res, (int)tmp.size());
+    }
+    cout << res;
+    return 0;
 }
 ```
 Code bằng dp:
